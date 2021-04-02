@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+  color: rgb(243, 243, 243);
+}
+
+header {
+  background-color: rgb(141, 141, 141);
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+.table-plan--container {
+  border: 1px solid white;
+  width: 30%;
+  margin: 100px 100px 0px;
+}
+
+.table-plan {
+  display: flex;
+  width: 100%;
+}
+
+.athlete-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.athlete-register--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.athlete-register input {
+  width: 200px;
+}
