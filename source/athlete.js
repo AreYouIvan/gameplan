@@ -9,6 +9,9 @@ class Athlete {
     this.role = role;
     this.area = area;
   }
+
+  
 }
 
 
+export default Athlete;
