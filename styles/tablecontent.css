@@ -1,4 +1,13 @@
 /* Right here, I'll write the style code for the content table. */
+:root {
+  --background-color: #e7e7e7;
+  --text-color: #ffffff;
+  --main-color: #006a8b;
+  --main-font: "Montserrat", sans-serif;
+  --shadow-color: #9496a7;
+  --dark-color: #000000;
+  /* font-family: "Roboto", sans-serif; */
+}
 
 .contenttable {
   width: 100%;
@@ -7,21 +16,73 @@
   display: grid;
 }
 
-.athlete {
-  margin: 20px;
-  border: solid 1px red;
-  width: 50%;
+.carrousel {
+  /* border: 1px solid red; */
+  height: 70px;
+  white-space: nowrap;
+  margin: 6px 0;
+  /* white-space: nowrap; */
+  overflow: auto;
+  padding: 0 10px;
 }
 
+.position .goalkeeper {
+  width: 180px;
+}
 
+.position {
+  margin: 10px 7px 5px;
+  height: 45px;
+  width: auto;
+  display: inline-block;
+  border-radius: 100px;
+  box-shadow: -10px 5px 15px -7px rgba(166, 166, 166, 0.89);
+ 
+  /* border: 1px solid red; */
+  padding: 8px;
+  overflow: hidden;
+  background-color: var(--shadow-color);
+  /* Font Size Properties */
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+}
 
-.athlete-props {
-  /* display: none; */
-  width: 300px;
-  height: 200px;
-  border: 1px solid red;
-  position: absolute;
-  right: 200px;
-  bottom: 300px 
+.table {
+  /* border: 1px solid red; */
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50px 50px;
+  color: var(--dark-color);
+}
 
+.table_columns {
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.table_columns h2 {
+  text-align: center;
+  height: 100%;
+  padding: 10px;
+}
+
+.titles {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  /* position: absolute; */
+  height: 50px;
+}
+
+.athlete_title,
+.schedule_title {
+  background-color: var(--main-color);
+  width: 160px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 8px 0;
 }
