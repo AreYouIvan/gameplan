@@ -16,37 +16,7 @@
   display: grid;
 }
 
-.carrousel {
-  /* border: 1px solid red; */
-  height: 70px;
-  white-space: nowrap;
-  margin: 6px 0;
-  /* white-space: nowrap; */
-  overflow: auto;
-  padding: 0 10px;
-}
 
-.position .goalkeeper {
-  width: 180px;
-}
-
-.position {
-  margin: 10px 7px 5px;
-  height: 45px;
-  width: auto;
-  display: inline-block;
-  border-radius: 100px;
-  box-shadow: -10px 5px 15px -7px rgba(166, 166, 166, 0.89);
- 
-  /* border: 1px solid red; */
-  padding: 8px;
-  overflow: hidden;
-  background-color: var(--shadow-color);
-  /* Font Size Properties */
-  font-size: 22px;
-  text-align: center;
-  font-weight: 500;
-}
 
 .table {
   /* border: 1px solid red; */
@@ -58,15 +28,16 @@
   color: var(--dark-color);
 }
 
-.table_columns {
-  border-bottom: 1px solid #c9c9c9;
-}
+
 
 .table_columns h2 {
   text-align: center;
   height: 100%;
   padding: 10px;
+  border-bottom: 1px solid #c9c9c9;
 }
+
+
 
 .titles {
   width: auto;

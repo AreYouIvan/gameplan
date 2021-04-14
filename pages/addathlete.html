@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/addathlete.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+
+    <link rel="stylesheet" href="../styles/carrousel.css" />
+    <title>Game Plan NFS</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="hero">add Athlete</h1>
+        <div class="menu_icon">
+          <svg
+            width="40"
+            height="25"
+            viewBox="0 0 42 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            class="menu_icon"
+          >
+            <line y1="1" x2="42" y2="1" stroke="white" stroke-width="2" />
+            <line y1="13" x2="42" y2="13" stroke="white" stroke-width="2" />
+            <line y1="25" x2="42" y2="25" stroke="white" stroke-width="2" />
+          </svg>
+        </div>
+        <!-- <ul id="menu-list" class="menu_items">
+          <li class="item">Sort Athletes</li>
+          <li class="item">Scheduled</li>
+          <li class="item">Modify areas</li>
+          <li class="item">Add new athlete</li>
+        </ul> -->
+      </nav>
+    </header>
+    <section class="carrousel">
+      <div class="position cashier">Cajas</div>
+      <div class="position fitting room">Probador</div>
+      <div class="position goalkeeper">Goalkeeper</div>
+      <div class="position athlete_zero">A. Zero</div>
+      <div class="position break">Break</div>
+    </section>
+    <h3>Registra a un nuevo atleta colocando los datos correspondientes.</h3>
+    <div class="form">
+      <input class="form-input" placeholder="Name" type="text" />
+      <input class="form-input" placeholder="ID" type="text" />
+      <label for="role" class="form-athletekind">Athlete kind</label>
+      <select name="select"class="form-kind" id="role">
+        <option value="fulltime">Full Time</option>
+        <option value="partime">Part Time</option>
+        <option value="justweekend">Just Weekend</option>
+      </select>
+      <div class="checkbox">
+        
+          <label for="goalkeeper">Goalkeeper</label>
+          <input class="box" id="goalkeeper" type="checkbox" />
+
+          <label for="fittingroom">Fitting Room</label>
+          <input class="box" id="fittingroom" type="checkbox" />
+        
+        
+          <label for="cashier">Cashier</label>
+          <input class="box" id="cashier" type="checkbox" />
+        
+       
+          <label for="athlete-zero">Athlete Zero</label>
+          <input class="box" id="athlete-zero" type="checkbox" />
+        
+      </div>
+      <button>Submit</button>
+    </div>
+
+    <script type="module" src="./source/index.js"></script>
+  </body>
+</html>

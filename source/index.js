@@ -1,19 +1,33 @@
-import Athlete from "./athlete.js";
-import Schedule from "./schedule.js";
 
-const atletas = [];
+// This is the Script for ading new elements
 
-atletas.push(new Athlete("Ivan", 382176, "cierre", "Cashier", "FTW"));
-atletas.push(new Athlete("Alberto", 222222, "cierre", "Goalkeeper", "APM"));
-atletas.push(new Athlete("Diego", 111111, "intermedio", "Fitting-room", "FTM"));
+// Columns
+const athleteColumn = document.querySelector(".column1");
+const hourColumn = document.querySelector(".column2");
 
-console.log(atletas);
+const athletesElement = []
+const hoursElement = []
 
-const content = "<div>Hola que hace</div>";
+// Adding new athlete.
+let nuevoAtleta;
+athletesElement.push("IVAN");
+hoursElement.push(`5 - 7 pm`);
 
-document.div.innerHMTL = content;
 
-export default atletas; 
+athletesElement.forEach(atleta => {
+  console.log(atleta)
+  const appendAthlete = document.createElement("h2");
+  appendAthlete.innerHTML = atleta;
+  athleteColumn.appendChild(appendAthlete);
+})
+hoursElement.forEach((hora) => {
+  console.log(hora);
+  const appendHour = document.createElement("h2");
+  appendHour.innerHTML = hora;
+  hourColumn.appendChild(appendHour);
+});
 
-// import = meter
-// export = sacar
+
+
+
+

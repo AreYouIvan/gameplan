@@ -1,0 +1,100 @@
+:root {
+  --background-color: #e7e7e7;
+  --text-color: #ffffff;
+  --main-color: #006a8b;
+  --main-font: "Montserrat", sans-serif;
+  --shadow-color: #7d8095;
+  --dark-color: #000000;
+  /* font-family: "Roboto", sans-serif; */
+  --font-size: 16px;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+h3 {
+  color: var(--dark-color);
+  text-align: left;
+  margin: 10px 10px;
+
+}
+
+.form {
+  color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.form-input {
+  width: 80%;
+  font-family: var(--main-font);
+  text-align: center;
+  font-size: var(--font-size);
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  margin: 5px 10px;
+  outline: none;
+}
+
+.form-athletekind {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.form-kind {
+  border: none;
+  border-radius: 20px;
+  width: 80%;
+  height: 40px;
+  font-family: var(--main-font);
+  outline: none;
+  font-size: var(--font-size);
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.checkbox {
+  min-width: 80%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 25% 25% 25% 25%;
+  align-items: center;
+  margin: 10px 0;
+  width: auto;
+  text-align: center;
+}
+
+.checkbox label {
+  width: auto;
+  margin: 8px;
+  cursor: pointer;
+}
+
+input[type="checkbox" i] {
+  width: 25px;
+  height: 25px;
+  margin: 0 50px;
+  cursor: pointer;
+  border: none;
+}
+
+button {
+  font-family: var(--main-font);
+  border-radius: 25px;
+  width: 80%;
+  height: 50px;
+  border: none;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  margin: 15px;
+  outline: none;
+  cursor: pointer;
+  font-size: var(--font-size);
+}
