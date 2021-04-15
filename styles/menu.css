@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --background-color: #e7e7e7;
+  --text-color: #ffffff;
+  --main-color: #006a8b;
+  --main-font: "Montserrat", sans-serif;
+  --shadow-color: #7d8095;
+  --dark-color: #000000;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+
+.menu-icon {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.menu-items {
+  transition: all 0.3s;
+  background-color: var(--main-color);
+  list-style: none;
+  padding: 0;
+  display: block;
+  height: 0;
+  margin-left: -100%;
+  
+}
+
+.show {
+  height: 308px;
+  margin: 0;
+}
+.menu-items li a{ 
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.menu-items li {
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+}

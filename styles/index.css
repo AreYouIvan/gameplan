@@ -19,101 +19,23 @@ body {
   font-family: var(--main-font);
 }
 
-nav {
+header {
+  display: block;
+  background: var(--main-color);
   width: auto;
-  height: 55px;
+}
+
+nav {
+  background: var(--main-color);
+  height: auto;
+  width: auto;
   display: flex;
   align-items: center;
-  background-color: var(--main-color);
   justify-content: space-between;
-
   /* border: solid 1px red; */
 }
 
 .hero {
-  margin-left: 25px;
+  margin-left: 15px;
   font-size: 35px;
 }
-
-.menu-icon {
-  margin-right: 10px;
-
-  /*width: 30px;
-  height: 30px; */
-}
-
-.menu-icon i {
-
-}
-
-
-
-.menu_items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Mobile menu */
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu li a {
-  display: block;
-  padding: 15px 5px;
-}
-.menu li.subitem a {
-  padding: 15px;
-}
-.toggle {
-  order: 1;
-  font-size: 20px;
-}
-.item.button {
-  order: 2;
-}
-.item {
-  order: 3;
-  width: 100%;
-  text-align: center;
-  display: none;
-}
-.active .item {
-  display: block;
-}
-.button.secondary {
-  /* divider between buttons and menu links */
-  border-bottom: 1px #444 solid;
-}
-/* Submenu up from mobile screens */
-.submenu {
-  display: none;
-}
-.submenu-active .submenu {
-  display: block;
-}
-.has-submenu i {
-  font-size: 12px;
-}
-.has-submenu > a::after {
-  font-family: "Font Awesome 5 Free";
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 900;
-  content: "\f078";
-  color: white;
-  padding-left: 5px;
-}
-.subitem a {
-  padding: 10px 15px;
-}
-.submenu-active {
-  background-color: #111;
-  border-radius: 3px;
-}
-
-

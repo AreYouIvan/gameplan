@@ -15,9 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <link rel="stylesheet" href="../styles/addathlete.css" />
     <link rel="stylesheet" href="../styles/index.css" />
-
+    <link rel="stylesheet" href="../styles/menu.css" />
     <link rel="stylesheet" href="../styles/carrousel.css" />
     <title>Game Plan NFS</title>
   </head>
@@ -25,27 +29,15 @@
     <header>
       <nav>
         <h1 class="hero">add Athlete</h1>
-        <div class="menu_icon">
-          <svg
-            width="40"
-            height="25"
-            viewBox="0 0 42 26"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            class="menu_icon"
-          >
-            <line y1="1" x2="42" y2="1" stroke="white" stroke-width="2" />
-            <line y1="13" x2="42" y2="13" stroke="white" stroke-width="2" />
-            <line y1="25" x2="42" y2="25" stroke="white" stroke-width="2" />
-          </svg>
-        </div>
-        <!-- <ul id="menu-list" class="menu_items">
-          <li class="item">Sort Athletes</li>
-          <li class="item">Scheduled</li>
-          <li class="item">Modify areas</li>
-          <li class="item">Add new athlete</li>
-        </ul> -->
+        <span class="menu-icon"><i class="fas fa-bars"></i></span>
       </nav>
+
+      <ul class="menu-items">
+        <li class=""><a href="#">Sort Athletes</a></li>
+        <li class=""><a href="../index.html">Schedule</a></li>
+        <li class=""><a href="#">Modify areas</a></li>
+        <li class=""><a href="./pages/addathlete.html">Add new Athlete</a></li>
+      </ul>
     </header>
     <section class="carrousel">
       <div class="position cashier">Cajas</div>
@@ -59,31 +51,28 @@
       <input class="form-input" placeholder="Name" type="text" />
       <input class="form-input" placeholder="ID" type="text" />
       <label for="role" class="form-athletekind">Athlete kind</label>
-      <select name="select"class="form-kind" id="role">
+      <select name="select" class="form-kind" id="role">
         <option value="fulltime">Full Time</option>
         <option value="partime">Part Time</option>
         <option value="justweekend">Just Weekend</option>
       </select>
       <div class="checkbox">
-        
-          <label for="goalkeeper">Goalkeeper</label>
-          <input class="box" id="goalkeeper" type="checkbox" />
+        <label for="goalkeeper">Goalkeeper</label>
+        <input class="box" id="goalkeeper" type="checkbox" />
 
-          <label for="fittingroom">Fitting Room</label>
-          <input class="box" id="fittingroom" type="checkbox" />
-        
-        
-          <label for="cashier">Cashier</label>
-          <input class="box" id="cashier" type="checkbox" />
-        
-       
-          <label for="athlete-zero">Athlete Zero</label>
-          <input class="box" id="athlete-zero" type="checkbox" />
-        
+        <label for="fittingroom">Fitting Room</label>
+        <input class="box" id="fittingroom" type="checkbox" />
+
+        <label for="cashier">Cashier</label>
+        <input class="box" id="cashier" type="checkbox" />
+
+        <label for="athlete-zero">Athlete Zero</label>
+        <input class="box" id="athlete-zero" type="checkbox" />
       </div>
       <button>Submit</button>
     </div>
 
     <script type="module" src="./source/index.js"></script>
+    <script src="../source/menu.js"></script>
   </body>
 </html>
