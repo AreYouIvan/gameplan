@@ -79,5 +79,5 @@ select {
   padding: 5px 30px;
   width: auto;
   appearance: none;
-
+  -webkit-appearance: none;
 }
