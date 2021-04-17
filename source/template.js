@@ -1,4 +1,4 @@
-import Athlete from './athlete.js'
+import Athlete from "./athlete.js";
 
 let ivan = new Athlete();
 let atleta1 = new Athlete();
@@ -32,6 +32,4 @@ ivan.role = {
   fitting_room: true,
 };
 
-console.log(ivan.position.FULL_TIME === true)
-
-
+console.log(ivan.position.FULL_TIME === true);
