@@ -87,4 +87,5 @@ athletes.filter((atleta) => {
   }
 })
 
+export default athletes
 

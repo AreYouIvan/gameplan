@@ -9,19 +9,19 @@ class Athlete {
       JUST_WEEKEND: false,
       PART_TIME: false,
     };
-    // this.role = {
-    //   goalkeper: false,
-    //   cashier: false,
-    //   fitting_room: false,
-    //   athlete_zero: false,
-    // };
-    // this.area = {
-    //   ftwWoman: false,
-    //   ftwMen: false,
-    //   appWoman: false,
-    //   appMen: false,
-    //   cashiers: false,
-    // }
+    this.role = {
+      goalkeper: false,
+      cashier: false,
+      fitting_room: false,
+      athlete_zero: false,
+    };
+    this.area = {
+      ftwWoman: false,
+      ftwMen: false,
+      appWoman: false,
+      appMen: false,
+      cashiers: false,
+    }
   }
   
 
