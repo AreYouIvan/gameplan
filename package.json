@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Proyecto para aumentar la eficiencia de NFS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "live-server"
   },

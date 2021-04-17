@@ -1,12 +1,13 @@
+
 // Clase horario, para agregar todas las propiedades del atleta.
 class Athlete {
   constructor() {
     this.name;
     this.id;
     this.position = {
-      FULL_TIME: "Tiempo completo",
-      JUST_WEEKEND: "Fin de semana",
-      PART_TIME: "Medio tiempo",
+      FULL_TIME: false,
+      JUST_WEEKEND: false,
+      PART_TIME: false,
     };
     this.role = {
       goalkeper: false,
@@ -25,5 +26,5 @@ class Athlete {
 }
 
 
-export default Athlete
 
+export default Athlete

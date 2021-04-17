@@ -10,7 +10,7 @@ const hoursElement = []
 
 // Adding new athlete.
 let nuevoAtleta;
-athletesElement.push("IVAN");
+athletesElement.push("Hola");
 hoursElement.push(`5 - 7 pm`);
 
 

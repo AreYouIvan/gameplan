@@ -2,15 +2,19 @@
   --background-color: #e7e7e7;
   --text-color: #ffffff;
   --main-color: #006a8b;
+  --hover-color: #0081a8;
   --main-font: "Montserrat", sans-serif;
-  --shadow-color: #9496a7;
+  --shadow-color: #7d8095;
+  --shadow-trans-color: #9c9fbb;
   --dark-color: #000000;
   /* font-family: "Roboto", sans-serif; */
 }
 
 .carrousel {
   /* border: 1px solid red; */
-  height: 70px;
+  /* height: 70px; */
+  min-height: 70px;
+  max-height: 130px;
   white-space: nowrap;
   margin: 6px 0;
   /* white-space: nowrap; */
@@ -37,4 +41,10 @@
   font-size: 22px;
   text-align: center;
   font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ;
+}
+
+.position:hover {
+  background-color: var(--shadow-trans-color);
 }

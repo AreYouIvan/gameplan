@@ -7,16 +7,23 @@
   --background-color: #e7e7e7;
   --text-color: #ffffff;
   --main-color: #006a8b;
+  --hover-color: #0081a8;
   --main-font: "Montserrat", sans-serif;
   --shadow-color: #7d8095;
+  --shadow-trans-color: #9c9fbb;
   --dark-color: #000000;
   /* font-family: "Roboto", sans-serif; */
 }
 
-
 .menu-icon {
   font-size: 30px;
   padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menu-icon:hover{
+  background-color: var(--hover-color);
 }
 
 .menu-items {
@@ -24,23 +31,27 @@
   background-color: var(--main-color);
   list-style: none;
   padding: 0;
-  display: block;
   height: 0;
-  margin-left: -100%;
-  
+  /* margin-right: 100%; */
+  display: block;
+  visibility: hidden;
+  opacity: 0;
 }
 
 .show {
-  height: 308px;
-  margin: 0;
+  height: 320px;
+  /* margin: 0; */
+  visibility: visible;
+  opacity: 1;
 }
-.menu-items li a{ 
+.menu-items li a {
   text-decoration: none;
   color: var(--text-color);
 }
 
 .menu-items li {
   display: block;
+  text-align: right;
   padding: 20px;
   font-size: 30px;
   color: white;
