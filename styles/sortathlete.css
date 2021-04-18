@@ -20,29 +20,44 @@
 
 
 .table {
-  /* border: 1px solid red; */
+
   height: auto;
-  width: auto;
+  width: 90%;
   display: block;
-  color: var(--dark-color);
-}
-
-.background {
-  background-color: var(--background-color2);
-  min-width: 90%;
-  max-width: 90%;
-  height: auto;
-  min-height: 50vh;
   margin: 0 auto;
-  border-radius: 15px;
+  color: var(--dark-color);
+  border-radius: 20px;
 }
 
-.table_columns {
-  width: 100%;
+.table_row {
   border-bottom: 1px solid #c9c9c9;
+  height: 80px;
+  background-color: var(--background-color2);
+  border-radius: 20px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.table_columns h2 {
+select {
+  border:none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  /* margin: auto 0; */
+  display: block;
+
+  font-weight: bold;
+  font-family: var(--main-font);
+  font-size: 22px;
+
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+
+.table_row h2 {
   text-align: left;
   height: 100%;
   padding: 10px;
@@ -54,8 +69,11 @@
   width: auto;
   display: flex;
   justify-content: space-around;
-  /* position: absolute; */
   height: 50px;
+}
+
+#scheduleSelect {
+  width: 285px;
 }
 
 .athlete_title,
@@ -69,15 +87,14 @@
   padding: 8px 0;
 }
 
-select {
-  border:none;
-  font-weight: bold;
-  font-family: var(--main-font);
-  font-size: 22px;
-  transition: all 0.3s;
-  outline: none;
-  padding: 5px 30px;
-  width: auto;
-  appearance: none;
-  -webkit-appearance: none;
+
+.arrow {
+  background-image: url(../assets/arrow.svg );
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 18px; 
+  height: 18px;
+
+  
+
 }

@@ -80,12 +80,12 @@ const athletes = [ ivan, atleta1, atleta2, atleta3, atleta4, atleta5, atleta6, a
 
 
 
-// Clasificar los horarios
-athletes.filter((atleta) => {
-  if (atleta.position.FULL_TIME == true){
-    console.log(atleta.name);
-  }
-})
+// // Clasificar los horarios
+// athletes.filter((atleta) => {
+//   if (atleta.position.FULL_TIME == true){
+    
+//   }
+// })
 
 export default athletes
 
