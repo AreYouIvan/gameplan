@@ -100,3 +100,24 @@ select {
   height: 18px;
   margin-right: 15px;
 }
+
+.add-button {
+  font-family: var(--main-font);
+  border-radius: 25px;
+  width: 30%;
+  height: 50px;
+  border: none;
+  background-color: var(--main-color);
+  color: var(--text-color);
+  margin: 10px auto;
+  outline: none;
+  cursor: pointer;
+  font-size: var(--font-size);
+  transition: all 0.3s;
+  display: block;
+}
+
+.add-button:hover {
+  background-color: var(--hover-color);
+  transition: all 0.20s;
+}
