@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
     <link rel="stylesheet" href="../styles/index.css" />
     <link rel="stylesheet" href="../styles/carrousel.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -24,21 +24,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link rel="stylesheet" href="../styles/menu.css" />
-    <link rel="stylesheet" href="../styles/sortathlete.css" />
     <title>Game Plan NFS</title>
   </head>
   <body>
     <header>
       <nav>
-        <h2 class="hero">Sort Athletes</h2>
+        <h2 class="hero">Modify Areas</h2>
         <span class="menu-icon"><i class="fas fa-bars"></i></span>
       </nav>
 
       <ul class="menu-items">
-        <li class=""><a href="./sortathletes.html">Sort Athletes</a></li>
-        <li class=""><a href="../index.html">Schedule</a></li>
-        <li class=""><a href="./modifyareas.html">Modify areas</a></li>
-        <li class=""><a href="./addathlete.html">Add new Athlete</a></li>
+        <li class=""><a href="sortathletes.html">Sort Athletes</a></li>
+        <li class=""><a href="index.html">Schedule</a></li>
+        <li class=""><a href="modifyareas.html">Modify areas</a></li>
+        <li class=""><a href="addathlete.html">Add new Athlete</a></li>
       </ul>
     </header>
     <main>
@@ -49,34 +48,8 @@
         <div class="position athlete_zero">A. Zero</div>
         <div class="position break">Break</div>
       </section>
-
-      <div class="titles">
-        <div class="athlete_title">
-          <h2>Sorth Athete</h2>
-        </div>
-      </div>
-
-      <div class="table">
-        <div class="table_row">
-          <div for="athleteselect" class="user-icon"></div>
-          <select id="athleteselect"></select>
-          <div for="athleteselect" class="arrow"></div>
-        </div>
-        <div class="table_row">
-          <div for="athleteselect" class="schedule-icon"></div>
-          <select id="scheduleSelect"></select>
-          <div for="athleteselect" class="arrow"></div>
-        </div>
-      </div>
-      <button id="athleteSchedule" class="add-button">Add</button>
-      <template class="template-div">
-        <div class="athlete-schedule">
-          <h3></h3><span></span>
-        </div>
-      </template>
     </main>
     <script type="module" src="../source/menu.js"></script>
-    <!-- <script type="module" src="../source/index.js"></script> -->
-    <script type="module" src="../source/sortathlete.js"></script>
+    <script type="module" src="../source/index.js"></script>
   </body>
 </html>
