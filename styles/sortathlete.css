@@ -44,8 +44,8 @@ select {
   border:none;
   padding: 5px 20px;
   border-radius: 10px;
-  /* margin: auto 0; */
-  display: block;
+
+  width: 79%;
 
   font-weight: bold;
   font-family: var(--main-font);
@@ -72,12 +72,9 @@ select {
   height: 50px;
 }
 
-#scheduleSelect {
-  width: 285px;
-}
 
-.athlete_title,
-.schedule_title {
+
+.athlete_title {
   background-color: var(--main-color);
   min-width: 200px;
   height: 45px;
