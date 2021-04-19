@@ -101,6 +101,24 @@ select {
   margin-right: 15px;
 }
 
+.athlete-schedule {
+  border-bottom: 1px solid #c9c9c9;
+  height: 50px;
+  width: 87%;
+  background-color: var(--background-color2);
+  border-radius: 20px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark-color);
+  transition: all 0.5s;
+}
+.athlete-schedule h3, span {
+  margin: 5px
+
+}
+
 .add-button {
   font-family: var(--main-font);
   border-radius: 25px;
@@ -119,5 +137,5 @@ select {
 
 .add-button:hover {
   background-color: var(--hover-color);
-  transition: all 0.20s;
+  transition: all 0.2s;
 }
